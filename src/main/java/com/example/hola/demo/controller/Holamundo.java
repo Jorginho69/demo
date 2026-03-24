@@ -18,7 +18,7 @@ public class Holamundo {
     public String helloWorld(){
         return  "Hello World....!!!!";
     }
-    @PostMapping("/saludo")
+    @PostMapping("/despedida")
     public ResponseEntity<String> recibirSaludo(@RequestBody Map<String, String> body){
         String nombre = body.get("nombre");
         return ResponseEntity.ok("Hola, "+ nombre + " mensaje recibido");
