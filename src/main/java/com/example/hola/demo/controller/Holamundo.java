@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping("api/v2")
+@RequestMapping("api/v3")
 public class Holamundo {
 
     @GetMapping("/hola")
